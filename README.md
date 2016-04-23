@@ -1,5 +1,5 @@
 # ebook-word-macros
-Word macros to help format ebooks. Tested in Word 2016
+Word macros to help format ebooks. Tested in Word 2016. I've probably formatted 30-40 large documents for Kindle with Word and these macros have saved me hours. Some are kind of ad-hoc for my use, but I'm sure someone else could find them useful. I'm more than open to help cleaning up the code and adding functionality so feel free to send a pull request. 
 
 #Installation
 **Import macro file:**
