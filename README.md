@@ -42,3 +42,9 @@ The files I work with have a very specific vocabulary. I have two files where I 
   1. Offers to de-capitalize the Spanish months of the year (as opposed to English months which are always capitalized)
   2. Executes the find/replace of the Word Replacement File
   3. Executes the find/replace of the Wildcard Replacement File
+
+#License
+
+Copyright © 2016 Jeff Roedel
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
