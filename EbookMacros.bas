@@ -58,7 +58,7 @@ Sub FindNextCutoffParagraph()
     End With
     With Selection.Find
         .text = "([!0-9.""" & ChrW(8221) & _
-            "^013^058…^t\?'\!\)\(^175^148^02])[^013]{1,2}([A-Za-z])"
+            "^013^058â€¦^t\?'\!\)\(^175^148^02])[^013]{1,2}([A-Za-z])"
         .replacement.text = "\1 \2"
         .Forward = True
         .Wrap = wdFindContinue
@@ -242,7 +242,7 @@ Sub LoadAndExecuteWildcardReplacements()
     
     Dim filePath As String
     Set cntnr = MacroContainer
-    filePath = cntnr.Path & "\" & commonWordFileName
+    filePath = cntnr.Path & "\" & commonWordWildcardFileName
     
     fileNum = FreeFile()
     Open filePath For Input As #fileNum
