@@ -6,8 +6,8 @@ Sub FixEmDashes()
     Selection.Find.ClearFormatting
     Selection.Find.replacement.ClearFormatting
     With Selection.Find
-        .text = "([^013, ])-([!^013- ][!^013-]{3,200})-([^013, ])"
-        .replacement.text = "\1^+\2^+\3"
+        .text = " - ([!^013-]{3,170})-([,."" ])"
+        .replacement.text = " ^+\1^+\2"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -21,8 +21,8 @@ Sub FixEmDashes()
     Selection.Find.ClearFormatting
     Selection.Find.replacement.ClearFormatting
     With Selection.Find
-        .text = " - ([!^013- ][!^013-]{3,200})- "
-        .replacement.text = " ^+\1^+ "
+        .text = " -([!^013-]{3,200})-([^013,. ])"
+        .replacement.text = " ^+\1^+\2"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
@@ -36,8 +36,8 @@ Sub FixEmDashes()
     Selection.Find.ClearFormatting
     Selection.Find.replacement.ClearFormatting
     With Selection.Find
-        .text = " -([!^013- ][!^013-]{3,200}) - "
-        .replacement.text = " ^+\1^+ "
+        .text = " —([,."" ])"
+        .replacement.text = "—\1"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = False
